@@ -1,34 +1,34 @@
 # CLAUDE.md
 
-## Project Overview
+## プロジェクト概要
 
-This repository hosts the **privacy policy page** for **読み手いらず** (Yomite Irazu), an Android card-game reader app by Vacation design. It is a static, single-page website written in Japanese, served via GitHub Pages.
+Vacation design が提供する Android アプリ**「読み手いらず」**のプライバシーポリシーページを管理するリポジトリです。日本語で書かれた静的な単一ページサイトで、GitHub Pages で配信されています。
 
-## Repository Structure
+## リポジトリ構成
 
 ```
 /
-├── index.html   # Privacy policy page (Japanese, self-contained HTML with inline CSS)
-├── README.md    # Brief project description
-└── CLAUDE.md    # This file
+├── index.html   # プライバシーポリシーページ（HTML + インラインCSS）
+├── README.md    # プロジェクトの簡単な説明
+└── CLAUDE.md    # このファイル
 ```
 
-## Key Details
+## 技術スタック
 
-- **Language**: The page content is entirely in Japanese. Preserve Japanese text accurately when editing.
-- **Stack**: Plain HTML + inline CSS. No build tools, no JavaScript, no dependencies.
-- **Hosting**: Designed for GitHub Pages (static file serving from the `main` branch root).
-- **External references**: The page links to Google AI terms of service and includes a contact email.
+- **言語**: ページの内容はすべて日本語。編集時は日本語テキストを正確に保つこと。
+- **構成**: HTML + インラインCSS のみ。ビルドツール・JavaScript・外部依存なし。
+- **ホスティング**: GitHub Pages（`main` ブランチのルートから静的配信）。
+- **外部リンク**: Google AI 利用規約へのリンクと問い合わせ用メールアドレスを含む。
 
-## Development Workflow
+## 開発ワークフロー
 
-- **No build step** — edit `index.html` directly.
-- **No tests or linters** — verify changes by opening `index.html` in a browser.
-- **Default branch**: `main`
+- **ビルド不要** — `index.html` を直接編集する。
+- **テスト・リンターなし** — ブラウザで `index.html` を開いて確認する。
+- **デフォルトブランチ**: `main`
 
-## Conventions
+## 規約・ルール
 
-- Keep all styling inline within the `<style>` block in `index.html`.
-- Update the `最終更新日` (last updated date) in the page when making content changes.
-- Maintain the existing section numbering (1–10) when adding or removing sections.
-- Copyright line at the bottom should reflect the current year.
+- スタイルは `index.html` 内の `<style>` ブロックにまとめる。
+- 内容を変更した際は、ページ内の `最終更新日` を更新する。
+- セクション番号（1〜10）の通し番号を維持する。セクションの追加・削除時は番号を振り直す。
+- ページ下部の著作権表示の年は最新の年にする。
